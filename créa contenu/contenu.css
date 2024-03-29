@@ -1,0 +1,149 @@
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #F8F5FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.banner .logo {
+    color: #6F38DD; 
+    font-size: 24px;
+}
+.banner .icons {
+    display: flex;
+    gap: 20px;
+}
+.banner .icons i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.main-content {
+    position: absolute;
+    width: 906px;
+    height: 489px;
+    left: 409px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+   
+}
+div.upload-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    width: 300px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    margin-bottom: 50px;
+}
+.upload-box {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; 
+    width: 200px;
+}
+.upload-box button {
+    background-color: #6F38DD; 
+    color: #000; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-1-container {
+    display: flex;
+    max-width: 100%;
+    width: 1150px;
+    flex-direction: row;
+    margin-top: 70px;
+}
+img{
+    width: 200px;
+}
+.section-1-left {
+    max-width: 500px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 5px 13px rgba(214, 212, 212, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 170px;
+}
+
+.img-link {
+    width: 35px;
+    height: 35px;
+}
+
+.section-1-left nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1-left nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    padding-left: 35px;
+    padding-top: 35px;
+    font-weight: 600;
+}
+
+.section-1-left nav a span {
+    margin-left: 40px;
+}
+
+.section-1-left .Profil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    margin-right: 20px;
+}
+
+.section-1-left .Profil a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    padding-left: 35px;
+    align-items: center;
+    font-weight: 300;
+}
